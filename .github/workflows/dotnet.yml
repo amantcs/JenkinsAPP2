@@ -29,5 +29,5 @@ jobs:
       uses: actions/upload-artifact@v3.1.0
       with:
         name: website artifact
-        path: JenkinsAPP/website/**
+        path: JenkinsAPP2/website/**
         if-no-files-found: error
