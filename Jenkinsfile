@@ -1,8 +1,6 @@
 pipeline{
     agent { node{label 'windows-node'}}
-    environment{
-        BUILD_NUMBER = $(GitVersion.NuGetVersionV2)
-    }
+   
     stages{
         stage('Git Checkout'){
             steps{
